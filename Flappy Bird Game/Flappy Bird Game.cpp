@@ -1,23 +1,8 @@
 #include <iostream>
 #include <string>
 #include<list>
-#include<wtypes.h>
 using namespace std;
 #include "olcConsoleGameEngine.h"
-// Get the horizontal and vertical screen sizes in pixel
-//void GetDesktopResolution(int& horizontal, int& vertical)
-//{
-//	RECT desktop;
-//	// Get a handle to the desktop window
-//	const HWND hDesktop = GetDesktopWindow();
-//	// Get the size of screen to the variable desktop
-//	GetWindowRect(hDesktop, &desktop);
-//	// The top left corner will have coordinates (0,0)
-//	// and the bottom right corner will have coordinates
-//	// (horizontal, vertical)
-//	horizontal = desktop.right;
-//	vertical = desktop.bottom;
-//}
 class FlappyBird : public olcConsoleGameEngine {
 
 private:
@@ -134,16 +119,7 @@ protected:
 	}
 };
 int main() {
-//	int horizontal = 0;
-//	int vertical = 0;
-//	GetDesktopResolution(horizontal, vertical);
-//
-//	FlappyBird game;
-//	game.ConstructConsole(horizontal/2, vertical/2, 7, 7);
-//
-//	game.Start();
 	FlappyBird game;
-	game.ConstructConsole(120, 60, 11, 11);//(120,60,11,11)
+	game.ConstructConsole(160, 48, 16, 16);//(120,60,11,11)
 	game.Start();
-	return 0;
 }
