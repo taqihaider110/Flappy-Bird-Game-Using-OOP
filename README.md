@@ -1,6 +1,6 @@
-# Flappy Bird Console Game
+# Flappy Bird Console Game Using OOP
 
-This project is a console-based implementation of the popular Flappy Bird game, using the `olcConsoleGameEngine`. The game is written in C++ and provides a basic gameplay experience similar to the original Flappy Bird game.
+This project is a console-based implementation of the popular Flappy Bird game, developed using Object-Oriented Programming principles and the `olcConsoleGameEngine`. The game is written in C++ and provides a basic gameplay experience similar to the original Flappy Bird game.
 
 ## Features
 
@@ -22,8 +22,8 @@ To run this project, you will need:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/taqihaider110/DSA-Semproj.git
-    cd DSA-Semproj
+    git clone https://github.com/taqihaider110/Flappy-Bird-Game-Using-OOP.git
+    cd Flappy-Bird-Game-Using-OOP
     ```
 
 2. **Compile the project:**
@@ -54,7 +54,7 @@ To run this project, you will need:
 
 ### Code Overview
 
-- `FlappyBird.h`: Contains the `FlappyBird` class which extends the `olcConsoleGameEngine`.
+- `FlappyBirdGame.h`: Contains the `FlappyBird` class which extends the `olcConsoleGameEngine`.
   - Bird and game logic components
   - Game state management
   - User input handling
@@ -81,4 +81,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - The `olcConsoleGameEngine` by [OneLoneCoder](https://github.com/OneLoneCoder)
 - Original Flappy Bird game by Dong Nguyen
-
